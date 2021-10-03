@@ -6,4 +6,4 @@ In this repo I'have completed some projects during learning WEB DEVELOPMENT from
 
 Here's the preview of some projects.
 
-  1.  https://codewithgulam.github.io/FreeCodeCamp/
+  1.  https://mr-vabs.github.io/FreeCodeCamp/Tribute%20Page/index.html
