@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card</title>
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .main-ctn {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: url("https://raw.githubusercontent.com/Mr-vabs/mnnessaa/main/card/layered-waves.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: scroll;
+      scrollbar-width: none;
+    }
+
+    .grid-ctn {
+      height: 50%;
+      width: 1000%;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: repeat(20, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: 10px;
+      padding: 25px 50px;
+    }
+
+    .main-ctn::-webkit-scrollbar {
+      display: none;
+    }
+
+    .card {
+      height: 90%;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      background: url("https://raw.githubusercontent.com/Mr-vabs/mnnessaa/main/card/layered-waves.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 5px dashed #759fee;
+      box-shadow: -4px 5px 10px 10px #08080822;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="main-ctn">
+    <div class="grid-ctn">
+      <div class="card"><h1 class="id-txt">Hello 1</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 2</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 3</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 4</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 5</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 6</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 7</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 8</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 9</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 10</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 11</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 12</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 13</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 14</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 15</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 16</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 17</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 18</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 19</h1></div>
+      <div class="card"><h1 class="id-txt">Hello 20</h1></div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
