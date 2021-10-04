@@ -33,12 +33,30 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+    }
+    
+    .main-ctn header {
+      height: 15%;
+      width: 90%;
+      margin-left: 5vw;
+      padding: 15px 15px 0 15px;
+      border-radius: 30px;
+      background: #08080811;
+    }
+    
+    .gird-wrapper {
+      height: 50%;
+      width: 100%;
       overflow: scroll;
       scrollbar-width: none;
     }
+    
+    .gird-wrapper::-webkit-scrollbar {
+      display: none;
+    }
 
     .grid-ctn {
-      height: 50%;
+      height: 90%;
       width: 1000%;
       border-radius: 10px;
       display: grid;
@@ -46,10 +64,6 @@
       grid-template-rows: 1fr;
       grid-gap: 10px;
       padding: 25px 50px;
-    }
-
-    .main-ctn::-webkit-scrollbar {
-      display: none;
     }
 
     .card {
@@ -72,7 +86,11 @@
 
 <body>
   <div class="main-ctn">
-    <div class="grid-ctn">
+    <header>
+      <h1 style="color: white; text-align: center">FreeCodeCamp Projects !!!</h1>
+    </header>
+    <div class="gird-wrapper">
+      <div class="grid-ctn">
       <div class="card"><h1 class="id-txt">Hello 1</h1></div>
       <div class="card"><h1 class="id-txt">Hello 2</h1></div>
       <div class="card"><h1 class="id-txt">Hello 3</h1></div>
@@ -93,6 +111,7 @@
       <div class="card"><h1 class="id-txt">Hello 18</h1></div>
       <div class="card"><h1 class="id-txt">Hello 19</h1></div>
       <div class="card"><h1 class="id-txt">Hello 20</h1></div>
+    </div>
     </div>
   </div>
   
