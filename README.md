@@ -10,7 +10,7 @@ See the 2022 updated [Course](https://www.freecodecamp.org/learn/2022/responsive
 
 Here's the list of all projects of the course.
 - [Tribute Page](https://mr-vabs.github.io/FreeCodeCamp/Tribute%20Page/index.html)
-- [Survey Form](https://mr-vabs.github.io/FreeCodeCamp/Survey%20Form/index.html)
+- [Survey Form](https://mr-vabs.github.io/FreeCodeCamp/Survey%20Form/index.htm)
 - [Product Landing Page](https://mr-vabs.github.io/FreeCodeCamp/Product%20Landing%20Page/index.html)
 - [Technical Documentation Page](https://mr-vabs.github.io/FreeCodeCamp/Technical%20Documentation%20Page/index.html)
 - [Personal Portfolio](https://mr-vabs.github.io/FreeCodeCamp/Personal%20Portfolio/index.htm)
