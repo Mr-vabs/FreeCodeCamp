@@ -34,7 +34,7 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
-    
+
     .main-ctn header {
       height: 15%;
       width: 90%;
@@ -48,21 +48,21 @@
       background: #08080811;
       box-shadow: -4px 5px 10px 10px #08080822, 4px 5px 10px 10px #08080822;;
     }
-    
+
     .gird-wrapper {
       height: 50%;
       width: 100%;
       overflow: scroll;
       scrollbar-width: none;
     }
-    
+
     .gird-wrapper::-webkit-scrollbar {
       display: none;
     }
 
     .grid-ctn {
       height: 90%;
-      width: 1000%;
+      min-width: 100%;
       border-radius: 10px;
       display: grid;
       grid-template-columns: repeat(20, 1fr);
@@ -72,9 +72,10 @@
     }
 
     .card {
-      height: 90%;
-      width: 90%;
+      height: 96%;
+      width: 60vw;
       display: flex;
+      position: relative;
       justify-content: center;
       align-items: center;
       border-radius: 10px;
@@ -84,6 +85,29 @@
       background-repeat: no-repeat;
       border: 5px dashed #759fee;
       box-shadow: -4px 5px 10px 10px #08080822;
+    }
+
+    .card iframe {
+      height: 100%;
+      width: 100%;
+    }
+
+    .card .link-txt {
+      display: inline-block;
+      height: 2rem;
+      width: 8rem;
+      text-align: center;
+      background: #8d8df6;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 2%;
+      color: white;
+      left: calc(50% - 4rem);
+      margin: auto;
+      padding: auto;
+      text-decoration: none;
+      font-weight: bolder;
+      text-transform: uppercase;
     }
 
   </style>
@@ -96,30 +120,31 @@
     </header>
     <div class="gird-wrapper">
       <div class="grid-ctn">
-      <div class="card"><h1 class="id-txt">Hello 1</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 2</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 3</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 4</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 5</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 6</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 7</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 8</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 9</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 10</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 11</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 12</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 13</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 14</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 15</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 16</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 17</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 18</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 19</h1></div>
-      <div class="card"><h1 class="id-txt">Hello 20</h1></div>
-    </div>
+        <div class="card">
+          <iframe src="https://mr-vabs.github.io/FreeCodeCamp/Tribute%20Page/index.html" frameborder="0"></iframe>
+          <a class="link-txt" href="https://mr-vabs.github.io/FreeCodeCamp/Tribute%20Page/index.html">Click to open</a>
+        </div>
+        <div class="card">
+          <iframe src="https://mr-vabs.github.io/FreeCodeCamp/Survey%20Form/index.htm" frameborder="0"></iframe>
+          <a class="link-txt" href="https://mr-vabs.github.io/FreeCodeCamp/Survey%20Form/index.htm">Click to open</a>
+        </div>
+        <div class="card">
+          <iframe src="https://mr-vabs.github.io/FreeCodeCamp/Product%20Landing%20Page/index.html" frameborder="0"></iframe>
+          <a class="link-txt" href="https://mr-vabs.github.io/FreeCodeCamp/Product%20Landing%20Page/index.html">Click to open</a>
+        </div>
+        <div class="card">
+          <iframe src="https://mr-vabs.github.io/FreeCodeCamp/Technical%20Documentation%20Page/index.html" frameborder="0"></iframe>
+          <a class="link-txt" href="https://mr-vabs.github.io/FreeCodeCamp/Technical%20Documentation%20Page/index.html">Click to open</a>
+        </div>
+        <div class="card">
+          <iframe src="https://mr-vabs.github.io/FreeCodeCamp/Personal%20Portfolio/index.htm" frameborder="0"></iframe>
+          <a class="link-txt" href="https://mr-vabs.github.io/FreeCodeCamp/Personal%20Portfolio/index.htm">Click to open</a>
+        </div>
+
+      </div>
     </div>
   </div>
-  
+
 </body>
 
 </html>
